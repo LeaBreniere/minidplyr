@@ -15,5 +15,7 @@ Imports:
     dplyr
 Suggest:
     testthat
-Suggests: 
+Suggests:
+    spelling, 
     covr
+Language: en-US

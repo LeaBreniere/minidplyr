@@ -8,6 +8,13 @@ filter2(x, ind)
 }
 \arguments{
 \item{x}{A data frame.}
+
+\item{ind}{Either
+\itemize{
+\item a character vector of variable names
+\item an integer vector of variables positions
+\item a boolean vector of variables to keep
+}}
 }
 \description{
 Title

@@ -4,12 +4,12 @@
 \alias{select2}
 \title{Select variables}
 \usage{
-select2(x, vars)
+select2(x, ind)
 }
 \arguments{
 \item{x}{A data frame.}
 
-\item{vars}{Either
+\item{ind}{Either
 \itemize{
 \item a character vector of variable names
 \item an integer vector of variables positions
@@ -17,7 +17,7 @@ select2(x, vars)
 }}
 }
 \value{
-A data frame constituted by all the rows of \code{x} and only the columns specified in \code{vars}.
+A data frame constituted by all the rows of \code{x} and only the columns specified in \code{ind}.
 }
 \description{
 This function allows to select variables from a data frame
