@@ -15,3 +15,5 @@ Imports:
     dplyr
 Suggest:
     testthat
+Suggests: 
+    covr
